@@ -1,0 +1,387 @@
+body {
+    background-color: #aaaaaa3d;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.parent_1 {
+    background-color: #2e7d32;
+    width: 345px;
+    height: 545px;
+}
+
+.shape {
+    background-color: #aaa;
+    width: 45px;
+    height: 44px;
+    position: absolute;
+    top: 12%;
+    left: 21%;
+    z-index: 1;
+}
+
+.circle {
+    background-color: #2e7d32;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+.shape_one {
+    background-color: #aaa;
+    width: 45px;
+    height: 44px;
+    position: absolute;
+    top: 92%;
+    left: 31%;
+    z-index: 2;
+}
+
+.shape_two {
+    background-color: #aaa;
+    width: 40px;
+    height: 12px;
+    position: absolute;
+    top: 14%;
+    left: 52%;
+    z-index: 3;
+}
+
+.one h1 b {
+    color: green;
+}
+
+.one h1 {
+    position: absolute;
+    right: 23%;
+    top: 10%;
+    font-size: 31px;
+}
+
+.one h4 {
+    position: absolute;
+    top: 21%;
+    right: 12%;
+}
+
+p {
+    font-size: 11px;
+    position: absolute;
+    right: 3%;
+    top: 26%;
+}
+
+h3 {
+    position: absolute;
+    top: 34%;
+    left: 67%;
+}
+
+.two ul .d {
+    position: absolute;
+    top: 60%;
+    left: 68%;
+}
+
+.two ul .c {
+    position: absolute;
+    top: 55%;
+    left: 68%;
+}
+
+.two ul .b {
+    position: absolute;
+    top: 50%;
+    left: 68%;
+}
+
+.two ul .a {
+    position: absolute;
+    top: 45%;
+    left: 68%;
+}
+
+.media i {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+}
+
+.media label {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    color: white;
+}
+
+.media a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+.media_four i {
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.media_four label {
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 7%;
+}
+
+.media_four p {
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    font-size: 15px;
+}
+
+.child {
+    background-color: #2e7d32;
+    width: 345px;
+    height: 80px;
+}
+
+h5 {
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    font-size: 20px;
+}
+
+.media_one i {
+    color: white;
+    position: absolute;
+    top: 96%;
+    left: 5%;
+}
+
+.media_two i {
+    color: white;
+    position: absolute;
+    top: 96%;
+    left: 10%;
+}
+
+.media_three i {
+    color: white;
+    position: absolute;
+    top: 96%;
+    left: 15%;
+}
+
+.image {
+    position: absolute;
+    top: 10%;
+    left: 23%;
+}
+
+.image img {
+    width: 400px;
+    height: 550px;
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .one h1 {
+        position: absolute;
+        right: -4%;
+        top: 10%;
+        font-size: 20px;
+    }
+
+    .one h4 {
+        position: absolute;
+        top: 21%;
+        right: -3%;
+        font-size: 5px;
+    }
+
+    p {
+        font-size: 4px;
+        position: absolute;
+        right: -4%;
+        top: 24%;
+    }
+
+    h3 {
+        font-size: 6px;
+        position: absolute;
+        top: 35%;
+        left: 74%;
+    }
+
+    .two ul .a {
+        font-size: 9px;
+        position: absolute;
+        top: 40%;
+        left: 78%;
+    }
+
+    .two ul .b {
+        font-size: 9px;
+        position: absolute;
+        top: 45%;
+        left: 78%;
+    }
+
+    .two ul .c {
+        position: absolute;
+        top: 50%;
+        left: 78%;
+        font-size: 9px;
+    }
+
+    .two ul .d {
+        position: absolute;
+        top: 55%;
+        left: 78%;
+        font-size: 9px;
+    }
+
+    .parent_1 {
+        width: 125px;
+        height: 325px
+    }
+
+    .child {
+        width: 125px;
+        height: 60px
+    }
+
+    .image {
+        position: absolute;
+        top: 10%;
+        left: 37%;
+    }
+
+    .image img {
+        width: 115px;
+        height: 310px;
+    }
+
+    .shape {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 12%;
+        left: 33%;
+    }
+
+    .shape_two {
+        width: 25px;
+        height: 7px;
+        position: absolute;
+        left: 68%;
+    }
+
+    .shape_one {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 71%;
+        left: 40%;
+    }
+
+    .circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+        top: 72%;
+        left: 68%;
+    }
+
+    .media i {
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        font-size: 12px
+    }
+
+    .media label {
+        position: absolute;
+        top: 35%;
+        left: 11%;
+        font-size: 11px;
+    }
+
+    .media a {
+        position: absolute;
+        top: 40%;
+        left: 4%;
+        font-size: 7px;
+    }
+
+    .media_four i {
+        position: absolute;
+        top: 55%;
+        left: 5%;
+        font-size: 12px;
+    }
+
+    .media_four label {
+        position: absolute;
+        top: 55%;
+        left: 11%;
+        font-size: 12px;
+    }
+
+    .media_four p {
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        font-size: 6px;
+    }
+
+    h5 {
+        position: absolute;
+        top: 70%;
+        left: 5%;
+        font-size: 10px;
+    }
+
+    .media_one i {
+        position: absolute;
+        top: 80%;
+        left: 5%;
+    }
+
+    .media_two i {
+        position: absolute;
+        top: 80%;
+        left: 14%;
+    }
+
+    .media_three i {
+        position: absolute;
+        top: 80%;
+        left: 23%;
+    }
+}
+
+
+
+/* Medium Screens */
+
+@media (max-width: 992px) {}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {}
